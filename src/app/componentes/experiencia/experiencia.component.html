@@ -1,0 +1,16 @@
+<section id="experiencia" class="experiencia">
+  <div class="mi-experiencia">
+    <h2>Experiencia</h2>
+    <div class="experiencia__cards">
+      <div class="card" *ngFor="let experiencia of experiencias">
+        <img src="{{experiencia.imagen}}" alt="atencion al cliente" class="card__img">
+        <div class="card__textos">
+          <h3 class="h3">{{experiencia.h3}}</h3>
+          <p>desde: <span class="span">{{experiencia.desde}}</span> hasta: <span
+              class="span">{{experiencia.hasta}}</span> </p>
+          <p class="p">{{experiencia.experiencia}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

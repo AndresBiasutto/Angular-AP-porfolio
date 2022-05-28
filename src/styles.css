@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Raleway:wght@400;700&display=swap');
+
+:root{
+    --titular: 'Odibee Sans', cursive;
+    --parrafo: 'Raleway', sans-serif;
+    --amarilloSombra: #F28705;
+    --amarillo: #F29F05;
+    --negro: #202020;
+    --blanco: #e9e9e9;
+    --atencion: #F24E05;
+}
+
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+    scroll-snap-type: y mandatory;
+    font-size: 62.5%; 
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+p {
+    line-height: 1.3;
+    color: var(--blanco);
+}
+body {
+    min-height: 100%;
+    font-size: 1.6rem;
+    font-family: var(--parrafo);
+    background-color: var(--amarilloSombra);
+}
+h1,h2,h3,h4{
+    line-height: 1.1;
+    font-family: var(--titular);
+    color: var(--amarillo);
+}
+h1{
+    font-size: 8rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2.3rem;
+}
+p{
+
+    text-align: left;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.contenedor{
+    margin: 0 10rem;
+}

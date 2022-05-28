@@ -1,0 +1,113 @@
+.hero{
+    height: 100vh;
+    position: relative;
+    background-color: var(--negro);
+    overflow: hidden;
+}
+.titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 250%);
+    animation-name: titulo;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-delay: .3s;
+}
+@keyframes titulo {
+    0%{
+        transform: translate(50%, 250%);
+    }
+    50%{
+        transform: translate(50%, -50%);
+
+    }
+    66%{
+        transform: translate(50%, -50%) rotate(-.25turn);
+    }
+    100%{
+        transform: translate(-90%, -50%) rotate(-.25turn);
+    }
+
+}
+.titulo h1{
+    font-size: 7rem;
+}
+.titulo h1, .titulo p{
+    color: var(--blanco);
+}
+.titulo p{
+    font-size: 2rem;
+    animation-name: tituloP;
+    animation-delay: 3.4s;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    transform: scaleY(0);
+}
+@keyframes tituloP {
+    100%{
+        transform: scaleY(1);
+    }
+}
+
+.cuadrado{
+    position: absolute;
+    background-color: var(--amarilloSombra);
+    height: 100vh;
+    width: 50vw;
+    top: 0;
+    left: 0;
+    mix-blend-mode: color-burn;
+    animation-name: cuadrado;
+    animation-delay: 4.2s;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+@keyframes cuadrado {
+    0%{
+        
+    }
+    50%{
+        left: -100%;
+    }
+    100%{
+        left: 50%;
+        mix-blend-mode: normal;
+    }
+}
+
+/*PC*/
+
+@media (min-width: 992px) {
+    .titulo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(50%, 400%);
+        animation-name: titulo;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease;
+        animation-delay: .3s;
+    }
+    @keyframes titulo {
+        0%{
+            transform: translate(50%, 400%) rotate(-.25turn);
+            opacity: 0;
+            filter: blur(3px);
+        }
+        50%{
+            transform: translate(50%, -50%) rotate(-.25turn);
+            opacity: 1;
+            filter: blur(0);
+        }
+        66%{
+            transform: translate(50%, -50%) rotate(0turn);
+        }
+        100%{
+            transform: translate(-120%, -50%) rotate(0turn);
+        }
+    
+    }
+}

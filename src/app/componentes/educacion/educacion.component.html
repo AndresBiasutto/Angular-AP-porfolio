@@ -1,0 +1,21 @@
+<section id="educacion" class="educacion">
+  <div class="mi-educacion">
+    <div class="cards">
+      <h2 class="h2">Educacion</h2>
+      <div class="caja">
+        <div class="card" *ngFor="let titulo of titulos">
+          <img src="{{titulo.imagen}}" alt="" class="card__img">
+          <div class="card__textos">
+            <h3 class="h3">{{titulo.institucion}}</h3>
+            <h4 class="h4">Título: <span class="span">{{titulo.titulo}}</span></h4>
+            <p>desde: <span class="span">{{titulo.desde}}</span> hasta: <span class="span">{{titulo.hasta}}</span> </p>
+            <ul class="ul">
+              <li *ngFor="let habilidad of titulo.habilidades" class="li">{{habilidad}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
