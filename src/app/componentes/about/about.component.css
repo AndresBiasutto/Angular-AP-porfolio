@@ -5,7 +5,7 @@
     justify-content: center;
 }
 .sobre-mi{
-    background-color: var(--amarillo);
+    background-color: var(--amarilloSombra);
     margin-top: 4rem;
     width: 90%;
     height: 90%;

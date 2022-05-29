@@ -1,0 +1,23 @@
+<section id="skills" class="skills">
+  <div class="mis-skills">
+    <h2>Skills</h2>
+    <div class="mis-skills__box">
+      <div class="skill" *ngFor="let skill of skills">
+        <h3>{{skill.nombre}}</h3>
+        <i class="{{skill.icono}} icono"></i>
+        <p>{{skill.nivel}}</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+<!-- <div class="skill" *ngFor="let skill of skills">
+      <p>{{skill.nombre}}</p>
+      <i class="{{skill.icono}}"></i>
+    </div> -->

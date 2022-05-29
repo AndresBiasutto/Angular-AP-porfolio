@@ -1,0 +1,43 @@
+.porfolio{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mi-porfolio{
+    background-color: var(--amarilloSombra);
+    margin-top: 4rem;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+
+.porfolio__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "porf1 porf1 porf2 porf2"
+                         "porf1 porf1 porf2 porf2"
+                         "porf1 porf1 porf3 porf3"
+                         "porf4 porf4 porf3 porf3"
+                         "porf4 porf4 porf3 porf3";
+    height: 90%;
+    gap: 10px;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    background-color: var(--negro);
+}
+.box1{
+grid-area: porf1;
+}
+.box2{
+    grid-area: porf2;
+}
+.box3{
+    grid-area: porf3;
+}
+.box4{
+    grid-area: porf4;
+}

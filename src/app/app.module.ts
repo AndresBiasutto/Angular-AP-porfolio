@@ -10,6 +10,9 @@ import { AboutComponent } from './componentes/about/about.component';
 import { NavSocialComponent } from './componentes/nav-social/nav-social.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
+import { SkillsComponent } from './componentes/skills/skills.component';
+import { PorfolioComponent } from './componentes/porfolio/porfolio.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
     AboutComponent,
     NavSocialComponent,
     ExperienciaComponent,
-    EducacionComponent
+    EducacionComponent,
+    SkillsComponent,
+    PorfolioComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

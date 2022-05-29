@@ -1,0 +1,39 @@
+.skills{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mis-skills{
+    background-color: var(--negro);
+    margin-top: 4rem;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+}
+.mis-skills__box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 5px solid var(--amarillo);
+    box-shadow: 5px 5px 0 var(--amarilloSombra);
+    padding: 10px;
+    width: 45%;
+    height: 220px;
+}
+.icono{
+    font-size: 10rem;
+    color: var(--amarilloSombra);
+}
