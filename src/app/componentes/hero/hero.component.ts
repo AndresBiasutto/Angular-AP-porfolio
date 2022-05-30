@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { PorflolioDataService } from 'src/app/servicios/porflolio-data.service';
 @Component({
   selector: 'app-hero',
   templateUrl: './hero.component.html',
@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
-  constructor() { }
+  constructor( private datosPorfolio:PorflolioDataService) { }
 
   ngOnInit(): void {
+    this.datosPorfolio.obtenerDatos()
   }
 
 }
