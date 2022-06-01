@@ -50,6 +50,14 @@ export class ExperienciaComponent implements OnInit {
     'experiencia': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?'
 }
   ]
-    
+    toogleMenu(){
+      const cardBox = document.querySelector(".card-box");
+      const icono = document.querySelector(".icono-t");
+
+      icono?.classList.toggle("icono")
+      cardBox?.classList.toggle("toggle");
+
+
+    }
   
 }

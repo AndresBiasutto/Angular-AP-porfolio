@@ -2,15 +2,37 @@
   <div class="mi-experiencia">
     <h2 class="h2">Experiencia</h2>
     <div class="experiencia__cards">
-      <div class="card" *ngFor="let experiencia of experiencias">
-        <img src="{{experiencia.imagen}}" alt="atencion al cliente" class="card__img">
-        <div class="card__textos">
-          <h3 class="h3">{{experiencia.h3}}</h3>
-          <p>desde: <span class="span">{{experiencia.desde}}</span> hasta: <span
-              class="span">{{experiencia.hasta}}</span> </p>
-          <p class="p">{{experiencia.experiencia}}</p>
+
+      <div class="experiencia-programacion">
+        <div class="card-prog">
+          <img src="../assets/img/port-4.jpg" class="card__img">
+          <div class="card__textos">
+            <h3 class="h3">Front End</h3>
+            <p>desde: <span class="span">2019</span> hasta: <span class="span">2020</span> </p>
+            <p class="p">Experiencia freelancer</p>
+          </div>
         </div>
       </div>
+
+
+      <div class="experiencia-complementaria">
+        <button (click)="toogleMenu()" class="boton">Experiencia complementaria <i
+            class="icono-t fa-solid fa-chevron-down"></i></button>
+        <div class="card-box">
+          <div class="card" *ngFor="let experiencia of experiencias">
+            <img src="{{experiencia.imagen}}" alt="atencion al cliente" class="card__img">
+            <div class="card__textos">
+              <h3 class="h3">{{experiencia.h3}}</h3>
+              <p class="p">desde: <span class="span">{{experiencia.desde}}</span> hasta: <span
+                  class="span">{{experiencia.hasta}}</span> </p>
+              <p class="p">{{experiencia.experiencia}}</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
     </div>
   </div>
 </section>

@@ -31,6 +31,13 @@ body {
     font-family: var(--parrafo);
     background-color: var(--negro);
 }
+body::-webkit-scrollbar{
+    background-color: var(--amarillo);
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--negro);
+}
 h1,h2,h3,h4{
     line-height: 1.1;
     font-family: var(--titular);
