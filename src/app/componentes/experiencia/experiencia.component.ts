@@ -42,13 +42,7 @@ export class ExperienciaComponent implements OnInit {
         'desde': '2002',
         'hasta': '2010',
         'experiencia': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?'
-    },
-    {'imagen': '../assets/img/expimg/career.png',
-    'h3': 'Diseñador web freelancer',
-    'desde': '2002',
-    'hasta': '2010',
-    'experiencia': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?'
-}
+    }
   ]
     toogleMenu(){
       const cardBox = document.querySelector(".card-box");

@@ -1,5 +1,8 @@
 <header class="header">
-  <img src="../assets/img/AP-Logo.png" alt="logo" class="logo">
+  <a href="#home">
+    <img src="../assets/img/AP-Logo.png" alt="logo" class="logo">
+  </a>
+
 
   <nav class="nav">
     <a *ngFor="let datos of datosMenu" href="{{datos.link}}" class="anchor">{{datos.nombre | uppercase}}</a>

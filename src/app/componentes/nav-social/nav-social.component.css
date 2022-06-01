@@ -2,11 +2,11 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 8rem;
-    right:  -10rem;
-    padding: .5rem;
+    top: 4rem;
+    left:  -5rem;
+    padding: 0;
     background-color: var(--negro);
-    border-radius:  .5rem 0 0 .5rem;
+    border-radius: 0 0 .5rem 0 ;
     animation-name: social;
     animation-duration: .3s;
     animation-delay: 4.3s;
@@ -16,7 +16,7 @@
 }
 @keyframes social {
     100%{
-        right: 0;
+        left: 0;
     }
 }
 .iconBoton{
@@ -27,8 +27,8 @@
     transform: translateX(-5px);
 }
 .icono{
-    color: white;
+    color: var(--amarilloSombra);
     font-size: 3rem;
-    margin-left: .5rem;
-    padding: 1rem;
+
+    padding: .5rem;
 }
