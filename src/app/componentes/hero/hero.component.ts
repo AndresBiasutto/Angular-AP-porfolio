@@ -6,11 +6,13 @@ import { PorflolioDataService } from 'src/app/servicios/porflolio-data.service';
   styleUrls: ['./hero.component.css']
 })
 export class HeroComponent implements OnInit {
-
+  dataPorfolio:any;
   constructor( private datosPorfolio:PorflolioDataService) { }
 
   ngOnInit(): void {
-    this.datosPorfolio.obtenerDatos()
+    this.datosPorfolio.obtenerDatos().subscribe( data =>{
+      this.dataPorfolio = data;
+    })
   }
 
 }

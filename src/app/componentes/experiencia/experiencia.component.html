@@ -10,7 +10,6 @@
             <h3 class="h3-prog">Front End Developer</h3>
             <p class="p-prog">desde: <span class="span-prog">2019</span> hasta: <span class="span-prog">2020</span> </p>
             <p class="p-prog"> Empresa: <span class="span-prog">Experiencia freelancer</span></p>
-
             <p class="p-prog-text">Desarrollador de sitios web para pequeñas y medianas empresas. </p>
             <p class="p-prog-text">Diseñador UX/UI. </p>
             <p class="p-prog-text">Tecnologías utilizadas: <span class="span-prog">HTML, CSS, Java Script, Wordpress,
@@ -24,7 +23,7 @@
         <button (click)="toogleMenu()" class="boton">Experiencia complementaria <i
             class="icono-t fa-solid fa-chevron-down"></i></button>
         <div class="card-box">
-          <div class="card" *ngFor="let experiencia of experiencias">
+          <div class="card" *ngFor="let experiencia of dataExperiencia">
             <img src="{{experiencia.imagen}}" alt="atencion al cliente" class="card__img">
             <div class="card__textos">
               <h3 class="h3">{{experiencia.h3}}</h3>

@@ -1,0 +1,91 @@
+{
+	"nombre": "Andres Biasutto",
+	"puesto": "Full Stack Developer Jr",
+	"foto": "../assets/fotos/yo-png.png",
+	"sobreMi": "Diseñador UX/UI, desarrollador Full Stack Jr. programador por eleccion, dibujante de nacimiento 😎",
+	"experiencias": [{
+			"imagen": "../assets/img/expimg/cashier.png",
+			"h3": "Atención al cliente",
+			"desde": "2002",
+			"hasta": "2010",
+			"experiencia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?"
+		},
+		{
+			"imagen": "../assets/img/expimg/routine.png",
+			"h3": "Cobrador a domicilio",
+			"desde": "2002",
+			"hasta": "2010",
+			"experiencia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?"
+		},
+		{
+			"imagen": "../assets/img/expimg/guard.png",
+			"h3": "Guardia de seguridad",
+			"desde": "2002",
+			"hasta": "2010",
+			"experiencia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?"
+		},
+		{
+			"imagen": "../assets/img/expimg/production.png",
+			"h3": "Operario Industrial",
+			"desde": "2002",
+			"hasta": "2010",
+			"experiencia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?"
+		},
+		{
+			"imagen": "../assets/img/expimg/janitor.png",
+			"h3": "Operario de servicios",
+			"desde": "2002",
+			"hasta": "2010",
+			"experiencia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?"
+		}
+	],
+	"titulos": [{
+			"imagen": "../assets/img/eduimg/logo-isada.png",
+			"institucion": "Instituto Isada",
+			"desde": "2020",
+			"hasta": "2022",
+			"titulo": "Secundario",
+			"habilidades": ["Bachiller con Orientación en Economía y Administración"]
+		},
+		{
+			"imagen": "../assets/img/eduimg/logo-udemy.png",
+			"institucion": "Udemy",
+			"desde": "2018",
+			"hasta": "2019",
+			"titulo": "Desarrollador Front End Jr.",
+			"habilidades": ["Diseño web UX/UI", "Maquetación de sitios web reactivos", "Desarrollo con HTML5, CCS3 Y Java Script"]
+		},
+		{
+			"imagen": "../assets/img/eduimg/logo-ap.png",
+			"institucion": "Argentina Programa",
+			"desde": "2021",
+			"hasta": "Actualmente en curso",
+			"titulo": "Desarrollador Web Full Stack Jr.",
+			"habilidades": [
+				"Front end estático (HTML5, CSS3, JS)",
+				"Front end Dinámico (Angular)",
+				"Bases de datos (SQL, json)",
+				"Programación orientada a objetos",
+				"Back End (java Spring boot)"
+			]
+		}
+	],
+    "redes": [
+        {
+            "nombre": "gitHub",
+            "icono": "fa-github-square",
+            "link" : "https://github.com/AndresBiasutto"
+        },
+        {
+            "nombre": "linkedin",
+            "icono": "fa-linkedin",
+            "link" : "https://www.linkedin.com/in/andres-biasutto-522933231/"
+        },
+        {
+            "nombre": "facebook",
+            "icono": "fa-facebook-square",
+            "link" : "https://www.facebook.com/andres.biasutto/"
+        }
+    ]
+}
+   

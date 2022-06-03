@@ -48,9 +48,8 @@
     width: 250px;
     height: 270px;
     border-radius: 50%;
-    border: 3px solid var(--amarilloSombra);
-    background-color: var(--amarilloSombra);
-    filter: grayscale(50%);
+    border: 3px solid var(--negro);
+    mix-blend-mode: multiply;
 }
 
 /*PC*/
@@ -69,6 +68,7 @@
         height: 100%;
         width: auto;
         background-color: transparent;
+        border: 5px solid var(--negro);
     }
     .parrafo{
         width: 50%;
