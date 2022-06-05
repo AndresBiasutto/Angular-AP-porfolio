@@ -7,11 +7,13 @@ import { PorflolioDataService } from 'src/app/servicios/porflolio-data.service';
 })
 export class AboutComponent implements OnInit {
   dataPorfolio:any;
+  sobreMi:any;
   constructor( private datosPorfolio:PorflolioDataService) { }
 
   ngOnInit(): void {
     this.datosPorfolio.obtenerDatos().subscribe( data =>{
       this.dataPorfolio = data;
+      this.sobreMi = this.dataPorfolio.sobreMi;
     })
   }
 }

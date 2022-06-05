@@ -14,7 +14,6 @@ dataExperiencia:any;
   ngOnInit(): void {
     this.datosExperiencia.obtenerDatos().subscribe(data =>{
       this.dataExperiencia= data.experiencias;
-      console.log(this.dataExperiencia)
     })
   }
 

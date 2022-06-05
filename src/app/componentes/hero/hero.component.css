@@ -64,6 +64,16 @@
     animation-duration: .5s;
     animation-fill-mode: forwards;
 }
+.circulo{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: var(--atencion);
+}
 @keyframes cuadrado {
     0%{
         
