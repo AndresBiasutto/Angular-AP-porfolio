@@ -1,39 +1,76 @@
 .skills{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 5000px;
+    position: relative;
+    overflow: hidden;
+    z-index: -100;
 }
 .mis-skills{
     background-color: var(--negro);
     margin-top: 4rem;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: auto;
     padding: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+
 }
 .mis-skills__box{
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    position: sticky;
 }
 .skill{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    justify-content: center;
     border: 5px solid var(--amarillo);
     box-shadow: 5px 5px 0 var(--amarilloSombra);
-    padding: 10px;
-    width: 45%;
-    height: 220px;
+    padding: 4px;
+    width: 100px;
+    height: 100px;
+    
+    
+}
+
+.h3{
+    font-size: 2rem;
 }
 .icono{
-    font-size: 10rem;
+    font-size: 5rem;
     color: var(--amarilloSombra);
+}
+.animacion{
+    animation-name: entrada;
+    animation-duration: .3s;
+    animation-timing-function: cubic-bezier(0.410, 0.710, 0.610, 0.310);
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+@keyframes entrada {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px) scale(.2);
+        filter: blur(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+    }
+}
+/* PC*/
+@media (min-width: 992px) {
+    .mis-skills{
+        top: 30vh;
+    }
+    .mis-skills__box{
+        flex-direction: row;
+    }
 }

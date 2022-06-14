@@ -2,13 +2,10 @@
   <a href="#home">
     <img src="../assets/img/AP-Logo.png" alt="logo" class="logo">
   </a>
-
-
   <nav class="nav">
     <a *ngFor="let datos of datosMenu" href="{{datos.link}}" class="anchor">{{datos.nombre | uppercase}}</a>
-    <button class="login">LOGIN</button>
+    <button class="login" (click)="mostrarLogin()">LOGIN</button>
   </nav>
-
   <fa-icon [icon]="faBars" class="menu-btn" (click)="mostarMenu()"></fa-icon>
-
 </header>
+<app-login-form class="login-form"></app-login-form>

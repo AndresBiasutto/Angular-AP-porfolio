@@ -1,0 +1,30 @@
+
+
+.login{
+    color: white;
+    height: 100vh;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.658);
+    transition: .3s all ease;
+}
+
+.login__form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    top: 30vh;
+    left: 0;
+}
+.input{
+    width: 50vw;
+    height: 30px;
+}
+.submit{
+    width: 100%;
+    height: 35px;
+    border: none;
+    background-color: var(--amarilloSombra);
+}

@@ -14,6 +14,9 @@ import { SkillsComponent } from './componentes/skills/skills.component';
 import { PorfolioComponent } from './componentes/porfolio/porfolio.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule} from '@angular/common/http';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms'; 
+import { LoginFormComponent } from './componentes/login-form/login-form.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,14 +28,17 @@ import { HttpClientModule} from '@angular/common/http';
     EducacionComponent,
     SkillsComponent,
     PorfolioComponent,
-    FooterComponent
+    FooterComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -9,46 +9,50 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 export class NavBarComponent implements OnInit {
 
+  datosMenu = [
+      {
+        'nombre': 'home',
+        'link': '#home'
+      },
+      {
+        'nombre': 'about',
+        'link': '#about'
+      },
+      {
+        'nombre': 'experiencia',
+        'link': '#experiencia'
+      },
+      {
+        'nombre': 'educacion',
+        'link': '#educacion'
+      },
+      {
+        'nombre': 'skills',
+        'link': '#skills'
+      },
+      {
+        'nombre': 'porfolio',
+        'link': '#porfolio'
+      },
+
+    ]
+  faBars = faBars;
+  
   constructor() { }
 
-  ngOnInit(): void {
-    
-  }
-  datosMenu = [
-    {
-      'nombre': 'home',
-      'link': '#home'
-    },
-    {
-      'nombre': 'about',
-      'link': '#about'
-    },
-    {
-      'nombre': 'experiencia',
-      'link': '#experiencia'
-    },
-    {
-      'nombre': 'educacion',
-      'link': '#educacion'
-    },
-    {
-      'nombre': 'skills',
-      'link': '#skills'
-    },
-    {
-      'nombre': 'porfolio',
-      'link': '#porfolio'
-    },
-
-  ]
+  ngOnInit(): void { }
   
-  faBars = faBars;
-
   mostarMenu(){
     const nav = document.querySelector(".nav");
     nav?.classList.toggle("nav-mostrar")
   }
 
+  mostrarLogin(){
+    const ventanaLogin = document.querySelector(".login-form");
+    
+    ventanaLogin?.classList.toggle("login-toggle")
+  }
+ 
 
 
 }

@@ -103,3 +103,13 @@
         width: 80px;
     }
   }
+  .login-form{
+    position: fixed;
+    top: 0;
+    left: -50vw;
+    z-index: 30;
+    transition: .3s all ease;
+  }
+  .login-toggle{
+    left: 0;
+}
