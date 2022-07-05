@@ -2,41 +2,46 @@
 	"nombre": "Andres Biasutto",
 	"puesto": "Full Stack Developer Jr",
 	"foto": "../assets/fotos/yo-png.png",
-	"sobreMi": "Diseñador UX/UI, desarrollador Full Stack Jr. programador por eleccion, dibujante de nacimiento 😎",
+	"sobreMi": "Estudiante de desarrollo Full Stack, diseñador UX/UI por diversión, programador por eleccion y dibujante de nacimiento 😎. ",
 	"experiencias": [{
 			"imagen": "../assets/img/expimg/cashier.png",
 			"h3": "Atención al cliente",
 			"desde": "2002",
-			"hasta": "2010",
-			"experiencia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?"
-		},
-		{
-			"imagen": "../assets/img/expimg/routine.png",
-			"h3": "Cobrador a domicilio",
-			"desde": "2002",
-			"hasta": "2010",
-			"experiencia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?"
-		},
-		{
-			"imagen": "../assets/img/expimg/guard.png",
-			"h3": "Guardia de seguridad",
-			"desde": "2002",
-			"hasta": "2010",
-			"experiencia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?"
+			"hasta": "2004",
+			"empresa": "Play Dream",
+			"experiencia": "Responsable de atender las consultas del cliente en tienda de electronica y video juegos. Mi objetivo era generar oportunidades de venta que se traduzcan en nuevos clientes y evaluar las necesidades de los clientes para lograr su satisfacción."
 		},
 		{
 			"imagen": "../assets/img/expimg/production.png",
 			"h3": "Operario Industrial",
-			"desde": "2002",
-			"hasta": "2010",
-			"experiencia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?"
+			"desde": "2004",
+			"hasta": "2006",
+			"empresa": "Rush calzados",
+			"experiencia": "Operario capacitado para proporcionar las materias primas a la maquinaria de producción. Realizar el montaje de mercancías en las líneas de producción. Supervisar todo el proceso de producción. Realizar controles básicos de calidad y pruebas."
+		},
+		{
+			"imagen": "../assets/img/expimg/routine.png",
+			"h3": "Cobrador a domicilio",
+			"desde": "2006",
+			"hasta": "2011",
+			"empresa": "Caruso seguros s.a, GEA s.a",
+			"experiencia": "Encargado de llevar un control de las cuentas que tenga asignadas para identificar deudas pendientes. Planificar un modo de actuar para recuperar pagos pendientes. Localizar y contactar con deudores para indagar sobre su situación de pago."
+		},
+		{
+			"imagen": "../assets/img/expimg/guard.png",
+			"h3": "Guardia de seguridad",
+			"desde": "2011",
+			"hasta": "2014",
+			"empresa": "Omega cooperativa de seguridad",
+			"experiencia": "Vigilar y proteger bienes muebles e inmuebles, así como a las personas que se encuentren dentro de los mismos. Realizar controles de identidad en el acceso o en el interior de determinadas instalaciones."
 		},
 		{
 			"imagen": "../assets/img/expimg/janitor.png",
 			"h3": "Operario de servicios",
-			"desde": "2002",
-			"hasta": "2010",
-			"experiencia": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, magni?"
+			"desde": "2014",
+			"hasta": "2022",
+			"empresa": "Berlim s.a, Corpal s.a",
+			"experiencia": "Encargado de la recepcion, organizacion, almacenamiento y correcto uso de los suministros y maquinaria. Operario capacitado para el uso de maquinaria de limpieza para grandes superficies de diversos rubros."
 		}
 	],
 	"titulos": [{

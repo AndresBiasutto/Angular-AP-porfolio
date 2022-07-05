@@ -1,16 +1,1 @@
-.animacion {
-    animation-name: animacion;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-play-state: paused;
-}
-@keyframes animacion {
-    0%{
-        filter: hue-rotate(-35deg) blur(5px);
-        opacity: 0;
-    }
-100%{
-    filter: hue-rotate(0) blur(0);
-    opacity: 1;
-}
-}
+

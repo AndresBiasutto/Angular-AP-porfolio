@@ -25,22 +25,22 @@ skills = [
 },
 {'nombre': 'Java Script',
  'icono': 'fab fa-js',
- 'nivel': 'avanzado',
+ 'nivel': 'intermedio',
  'class': "animacion"
 },
 {'nombre': 'Angular',
  'icono': 'fa-brands fa-angular',
- 'nivel': 'avanzado',
+ 'nivel': 'intermedio',
  'class': "animacion"
 },
 {'nombre': 'SQL',
  'icono': 'fa-solid fa-database',
- 'nivel': 'avanzado',
+ 'nivel': 'intermedio',
  'class': "animacion"
 },
 {'nombre': 'Java',
  'icono': 'fa-brands fa-java',
- 'nivel': 'avanzado',
+ 'nivel': 'aprendiz',
  'class': "animacion"
 },
 ]
@@ -77,11 +77,6 @@ scrollBlur(){
          if (scrollActual > skillsTop + 3000 ) {
           skillCard[5].style.animationPlayState = "running";
          }
-         
-      
-     
-
-
   })
  
 }
